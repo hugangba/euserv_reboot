@@ -50,7 +50,7 @@ IPv6地址必须符合RFC 4291格式规范
 账户信息以环境变量形式存储，请勿提交至版本控制系统
 推荐通过cron或Systemd配置定时任务（如每15分钟执行一次）
 
-English Documentation
+## English-Documentation
 Project Description 📌
 Python script for automated monitoring and recovery of IPv6-based Euserv servers. Automatically performs server reboot via official API when unreachable status is detected.
 
