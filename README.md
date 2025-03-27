@@ -20,7 +20,7 @@
 - requests 库
 - 有效的Euserv账户和服务订单
 
-编辑环境变量：
+### 编辑环境变量：
 EUSERV_EMAIL="your_email@example.com"
 EUSERV_PASSWORD="your_password"
 EUSERV_ORD_NO="your_order_number"
@@ -65,7 +65,7 @@ Python 3.8+
 requests library
 Active Euserv account and service order
 
-Edit environment variables:
+### Edit environment variables:
 EUSERV_EMAIL="your_email@example.com"
 EUSERV_PASSWORD="your_password"
 EUSERV_ORD_NO="your_order_number"
