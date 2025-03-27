@@ -22,9 +22,12 @@
 
 ### 编辑环境变量：
 EUSERV_EMAIL="your_email@example.com"
+
 EUSERV_PASSWORD="your_password"
+
 EUSERV_ORD_NO="your_order_number"
-EUSERV_IPV6="2001:db8::1"  # 需替换为实际地址
+
+EUSERV_IPV6="2001:db8::1" 
 
 ### 执行示例 📝
 正在初始化服务客户端...
@@ -67,9 +70,12 @@ Active Euserv account and service order
 
 ### Edit environment variables:
 EUSERV_EMAIL="your_email@example.com"
+
 EUSERV_PASSWORD="your_password"
+
 EUSERV_ORD_NO="your_order_number"
-EUSERV_IPV6="2001:db8::1"  # Replace with actual address
+
+EUSERV_IPV6="2001:db8::1"
 
 ### Execution Example 📝
 Initializing service client...
