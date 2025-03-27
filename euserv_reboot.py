@@ -1,3 +1,7 @@
+"""
+Python script for automated monitoring and recovery of IPv6-based Euserv servers. Automatically performs server reboot via official API when unreachable status is detected.
+Feedback:https://github.com/hugangba/euserv_reboot
+"""
 import requests
 import os
 import platform
