@@ -39,18 +39,24 @@ EUSERV_IPV6="2001:db8::1"
 开始执行恢复流程...
 
 步骤1/3 获取会话ID...
+
 ✅ 会话ID获取成功
 
 步骤2/3 账号登录...
+
 ✅ 登录成功 | 消息: Login successful
 
 步骤3/3 执行服务器重启...
+
 ✅ 重启指令发送成功 | 状态: Reset initiated
 
 ### 注意事项 ⚠️
 IPv6地址必须符合RFC 4291格式规范
+
 建议配置API访问频率限制（默认不限制）
+
 账户信息以环境变量形式存储，请勿提交至版本控制系统
+
 推荐通过cron或Systemd配置定时任务（如每15分钟执行一次）
 
 ## English-Documentation
@@ -79,6 +85,7 @@ EUSERV_IPV6="2001:db8::1"
 
 ### Execution Example 📝
 Initializing service client...
+
 ℹ️ Configured address: 2001:db8::1
 
 [Initial Check] Testing IPv6 connectivity...
@@ -87,19 +94,26 @@ Initializing service client...
 Initiating recovery workflow...
 
 Step 1/3 Obtaining session ID...
+
 ✅ Session ID acquired successfully
 
 Step 2/3 Account login...
+
 ✅ Login successful | Message: Login successful
 
 Step 3/3 Executing server reboot...
+
 ✅ Reboot command sent | Status: Reset initiated
 
 ### Important Notes ⚠️
 IPv6 address must comply with RFC 4291 format
+
 Recommend configuring API rate limits (disabled by default)
+
 Store credentials in environment variables - DO NOT commit to VCS
+
 Suggest setting up cron/Systemd scheduled tasks (e.g., every 15 minutes)
+
 贡献指南 / Contribution
 欢迎提交Issue或PR：
 📮 Report issues: New Issue
